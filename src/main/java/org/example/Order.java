@@ -12,14 +12,6 @@ public class Order {
         this.dateOfOrder = LocalDate.of(year, month, dayOfMonth);
     }
 
-    public Game getGame() {
-        return game;
-    }
-
-    public LocalDate getDateOfOrder() {
-        return dateOfOrder;
-    }
-
     @Override
     public String toString() {
         return "Order{" +

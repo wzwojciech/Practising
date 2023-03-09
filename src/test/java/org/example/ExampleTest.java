@@ -3,10 +3,9 @@ package org.example;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class ExampleTest {
     @Test
-    public void testExample(){
+    public void testExample() {
         //Given
         Example example = new Example("Wojtek");
 
@@ -16,6 +15,6 @@ public class ExampleTest {
         //Then
         Assert.assertEquals("Wojtek", finalResult);
 
-
     }
+
 }

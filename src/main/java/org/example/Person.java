@@ -7,7 +7,6 @@ public class Person {
 
     String lastname;
 
-
     LocalDate birthdate;
 
     public Person(String lastname, LocalDate birthdate) {
@@ -38,9 +37,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "lastname='" + lastname + '\'' +
-                ", birthdate=" + birthdate +
-                '}';
+        return "Person{" + "lastname='" + lastname + '\'' + ", birthdate=" + birthdate + '}';
     }
 }

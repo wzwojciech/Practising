@@ -20,7 +20,6 @@ public class Manager {
         System.out.println("Performed tasks: " + tasks.size());
     }
 
-
     @Override
     public String toString() {
         return "Manager{" +

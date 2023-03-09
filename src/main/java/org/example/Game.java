@@ -9,14 +9,6 @@ public class Game {
         this.year = year;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
     @Override
     public String toString() {
         return "Game{" +

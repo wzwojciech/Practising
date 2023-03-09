@@ -11,13 +11,8 @@ public class WorkingTime {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return hours + " + " + overHours;
     }
 
-
-
-
-
 }
-

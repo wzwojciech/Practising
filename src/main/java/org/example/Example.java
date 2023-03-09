@@ -2,8 +2,7 @@ package org.example;
 
 public class Example {
 
-    private String example;
-
+    private final String example;
 
     public Example(String example) {
         this.example = example;
@@ -12,6 +11,5 @@ public class Example {
     public String getExample() {
         return example;
     }
-
 
 }
